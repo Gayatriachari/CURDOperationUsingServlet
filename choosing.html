@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Choosing option to perform Jdbc operation</title>
+</head>
+<body bgcolor='cyan'>
+   <h1 style='color:brown; text-align:center'>choose the below option to perform particular JDBC Operation</h1> 
+   <form action="./testServlet" method="post">
+       <table align="center">
+           <tr> 
+               <td>
+             	  <input type="radio" id="one" name="select" value="select">
+                  <label for="one">select</label><br>
+         	   </td>
+           </tr>
+           <tr>
+                <td>
+                    <input type="radio" id="two" name="insert" value="insert">
+                    <label for="two">insert</label><br>
+                </td>
+           </tr>
+           <tr>
+                <td>
+                    <input type="radio" id="three" name="delete" value="delete">
+                    <label for="three">delete</label><br>
+                </td>
+           </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="four" name="update" value="update">
+                    <label for="four">update</label><br>
+                </td>
+           </tr>
+           <tr>
+               <td>
+                    <input type='submit' value='submit'>
+               </td>
+           </tr>
+       
+       </table>
+   </form>
+</body>
+</html>
